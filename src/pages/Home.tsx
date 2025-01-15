@@ -24,7 +24,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=800&auto=format&fit=crop&q=80"
+            src="https://www.w3bai.com/w3css/img_avatar3.png"
             alt="Profile"
             className="w-32 h-32 rounded-full object-cover"
           />
