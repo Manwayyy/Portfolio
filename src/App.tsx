@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import TechWatch from './pages/TechWatch';
 import Skills from './pages/Skills';
+import Projects from './pages/Projects';
 import BTSSIO from './pages/BTSSIO';
 
 function App() {
