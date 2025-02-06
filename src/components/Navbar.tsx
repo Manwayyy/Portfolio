@@ -8,7 +8,6 @@ export default function Navbar() {
     { path: '/bts-sio', text: 'BTS SIO', icon: GraduationCap },
     { path: '/veille-technologique', text: 'Veille Technologique', icon: Laptop },
     { path: '/competences', text: 'Compétences', icon: Brain },
-    { path: '/projets', text: 'Projets', icon: FolderGit2 },
   ];
 
   return (
