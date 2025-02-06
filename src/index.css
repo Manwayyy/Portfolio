@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-primary: #01e7ff;
+  --color-secondary: #0e1f34;
+}
+
+body {
+  background: linear-gradient(135deg, var(--color-secondary) 0%, #162942 100%);
+  color: #ffffff;
+}
+
+.glass-effect {
+  background: rgba(14, 31, 52, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(1, 231, 255, 0.1);
+}
+
+.glow-effect {
+  box-shadow: 0 0 15px rgba(1, 231, 255, 0.2);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, var(--color-primary), #80f3ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

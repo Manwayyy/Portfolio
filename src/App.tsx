@@ -5,11 +5,12 @@ import Home from './pages/Home';
 import TechWatch from './pages/TechWatch';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
+import BTSSIO from './pages/BTSSIO';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen">
         <Navbar />
         <main className="container mx-auto px-4 py-8">
           <Routes>
@@ -17,6 +18,7 @@ function App() {
             <Route path="/veille-technologique" element={<TechWatch />} />
             <Route path="/competences" element={<Skills />} />
             <Route path="/projets" element={<Projects />} />
+            <Route path="/bts-sio" element={<BTSSIO />} />
           </Routes>
         </main>
       </div>

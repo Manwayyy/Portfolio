@@ -27,28 +27,28 @@ export default function TechWatch() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <div className="bg-white rounded-lg shadow-md p-8">
-        <h1 className="text-3xl font-bold text-gray-800 mb-6">
+      <div className="glass-effect rounded-lg p-8 glow-effect">
+        <h1 className="text-3xl font-bold gradient-text mb-6">
           Comment l'informatique peut contribuer à la médecine ?
         </h1>
         
         <div className="grid gap-6 md:grid-cols-2">
           {articles.map((article, index) => (
-            <div key={index} className="p-6 border rounded-lg hover:shadow-md transition-shadow">
+            <div key={index} className="glass-effect p-6 rounded-lg border border-primary/10 hover:glow-effect transition-all">
               <div className="flex items-center mb-4">
-                <article.icon className="w-6 h-6 text-blue-600 mr-3" />
-                <h2 className="text-xl font-semibold text-gray-800">{article.title}</h2>
+                <article.icon className="w-6 h-6 text-primary mr-3" />
+                <h2 className="text-xl font-semibold gradient-text">{article.title}</h2>
               </div>
-              <p className="text-gray-600">{article.content}</p>
+              <p className="text-gray-300">{article.content}</p>
             </div>
           ))}
         </div>
 
-        <div className="mt-8 p-6 bg-blue-50 rounded-lg">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">
+        <div className="mt-8 glass-effect p-6 rounded-lg border border-primary/10">
+          <h3 className="text-xl font-semibold gradient-text mb-4">
             Impact sur l'avenir de la médecine
           </h3>
-          <p className="text-gray-600">
+          <p className="text-gray-300">
             L'informatique continue de transformer le secteur médical, offrant de nouvelles 
             possibilités pour améliorer les soins aux patients, optimiser les processus 
             médicaux et faciliter la recherche médicale. Cette synergie entre technologie 
