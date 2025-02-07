@@ -36,7 +36,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="transform hover:scale-105 transition-all duration-300">
+          <div className="">
             <h2 className="text-2xl font-semibold gradient-text mb-4">Objectifs professionnels</h2>
             <p className="text-gray-300">
               Mon objectif est de devenir un développeur polyvalent, capable de concevoir 
