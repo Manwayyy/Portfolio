@@ -35,7 +35,7 @@ export default function BTSSIO() {
             <div className="glass-effect rounded-lg overflow-hidden border border-primary/10">
               <div className="relative h-48">
                 <img
-                  src="https://images.unsplash.com/photo-1593078166039-c9878df5c520?w=800&auto=format&fit=crop&q=80"
+                  src="Portfolio/image/LeGrandBerger.png"
                   alt="Le Grand Berger"
                   className="w-full h-full object-cover"
                 />
@@ -49,7 +49,7 @@ export default function BTSSIO() {
             <div className="glass-effect rounded-lg overflow-hidden border border-primary/10">
               <div className="relative h-48">
                 <img
-                  src="https://images.unsplash.com/photo-1520095972714-909e91b038e5?w=800&auto=format&fit=crop&q=80"
+                  src="Potfolio/image.MarieTeam.png"
                   alt="MarieTeam"
                   className="w-full h-full object-cover"
                 />
