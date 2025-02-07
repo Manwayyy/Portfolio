@@ -35,7 +35,7 @@ export default function BTSSIO() {
             <div className="glass-effect rounded-lg overflow-hidden border border-primary/10">
               <div className="relative h-48">
                 <img
-                  src="/GitHub/Portfolio/image/LeGrandBerger.png"
+                  src="/Portfolio/image/LeGrandBerger.png"
                   alt="Le Grand Berger"
                   className="w-full h-full object-cover"
                 />
@@ -49,7 +49,7 @@ export default function BTSSIO() {
             <div className="glass-effect rounded-lg overflow-hidden border border-primary/10">
               <div className="relative h-48">
                 <img
-                  src="/Github/POrtfolio/image/MarieTeam.png"
+                  src="/Portfolio/image/MarieTeam.png"
                   alt="MarieTeam"
                   className="w-full h-full object-cover"
                 />
