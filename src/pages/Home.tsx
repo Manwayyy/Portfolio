@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         
         <div className="space-y-8">
-          <div className="transition-all duration-300">
+          <div className="">
             <h2 className="text-2xl font-semibold gradient-text mb-4">À propos de moi</h2>
             <p className="text-gray-300 mb-6">
               Étudiant passionné en BTS SIO (Services Informatiques aux Organisations), 
